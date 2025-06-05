@@ -2,8 +2,8 @@
 const employees = [
   {
     id: 1,
-    firstName: "Amit",
-    email: "am@am.com",
+    firstName: "Ajeet",
+    email: "Ajeet@tracksy.com",
     pwd: "123",
     totalTasks: 3,
     activeTasks: 1,
