@@ -1,12 +1,44 @@
-# React + Vite
+# 🚀 Tracksy – Employee Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tracksy is a lightweight, frontend-only task management web app built with **React** and **Tailwind CSS**. It allows admins to assign tasks to employees and track their progress in real-time — all managed locally through browser storage (`localStorage`).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Visit Tracksy on GitHub Pages](https://official-ajeet.github.io/tracksy)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Features
+
+### 👤 Login
+- Separate login for **Admin** and **Employees**
+- Session management via **React Context (AuthContext)**
+
+### 👨‍💼 Admin Panel
+- Assign tasks with title, description, date, and category
+- Select which employee receives the task
+- Tasks are marked as **new** by default
+
+### 👷 Employee Dashboard
+- View task stats: **New**, **Active**, **Completed**, **Failed**
+- Click to **mark tasks as completed or failed**
+- Automatic count updates and UI re-rendering
+- Tasks are categorized and styled based on status
+
+### 📦 Data Handling
+- All data is stored in the browser using `localStorage`
+- Acts like a mock database for frontend-only apps
+
+---
+
+## 🛠 Tech Stack
+
+- ✅ React
+- ✅ Tailwind CSS
+- ✅ Vite
+- ✅ Context API
+- ✅ LocalStorage
+
+---
