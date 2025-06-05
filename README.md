@@ -6,7 +6,19 @@ Tracksy is a lightweight, frontend-only task management web app built with **Rea
 
 ## 🌐 Live Demo
 
-👉 [Visit Tracksy on GitHub Pages](https://official-ajeet.github.io/tracksy)
+👉 [Visit Tracksy on GitHub Pages](https://official-ajeet.github.io/Tracksy)
+
+## Demo Credentials
+
+To try out the app, you can use these sample login details:
+
+| Role     | Email          | Password |
+|----------|----------------|----------|
+| Admin    | admin@tracksy.com   | admin123      |
+| Employee | Ajeet@tracksy.com      | 123       |
+
+> **Note:** These are demo accounts for testing purposes only.
+
 
 ---
 
